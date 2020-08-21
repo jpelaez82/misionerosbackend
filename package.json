@@ -1,0 +1,36 @@
+{
+  "name": "misionerosbackend",
+  "version": "1.0.0",
+  "description": "NodeJS - MongoDB REST API project for visit survey data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "start-watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpelaez82/misionerosbackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpelaez82/misionerosbackend/issues"
+  },
+  "homepage": "https://github.com/jpelaez82/misionerosbackend#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "jade": "^1.11.0",
+    "mongoose": "^5.4.17",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
